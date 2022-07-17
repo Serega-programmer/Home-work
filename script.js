@@ -43,3 +43,12 @@ for (let i = 0; i < 2; i++) {
     console.log(personalMovieDB);
 }
 }
+// п.24 ФУНКЦИИ, СТРЕЛОЧНЫЕ ФУНКЦИИ (ES6)
+
+let num = 20;
+function showFirstMessage(text) {
+    console.log(text);
+    let num = 10;
+}
+showFirstMessage("Hello world!");
+console.log(num);
