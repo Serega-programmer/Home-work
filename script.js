@@ -2,7 +2,13 @@
 
 alert("Привет");
 
-const number0Films = prompt("Сколько фильмов вы уже посмотрели? ", "");
+ let number0fFilms;
+ 
+ function (start) {
+    while(number0fFilms = "" || number0fFilms==null || isNaN( nomberOfFilms))
+number0fFilms = +prompt("Сколько фильмов вы уже посмотрели? ", "");
+}
+
 
 const personalMovieDB = {
     count: number0Films,
@@ -48,7 +54,21 @@ for (let i = 0; i < 2; i++) {
 let num = 20;
 function showFirstMessage(text) {
     console.log(text);
-    let num = 10;
+    // let num = 10;
+    console.log(num);
 }
 showFirstMessage("Hello world!");
 console.log(num);
+
+console.log(calc(4,3));
+console.log(calc(5,6));
+console.log(calc(10,6));
+
+function calc(a,b) {
+return(a+b);
+}
+
+const logger = function () {
+    console.log("Hello");
+};
+logger();
