@@ -72,3 +72,5 @@ function rememberMyFilmes () {
     
 writeYourGenres();
 
+function dell();
+
