@@ -6,6 +6,7 @@ alert("Привет");
  
  function (start) {
     while(number0fFilms = "" || number0fFilms==null || isNaN( nomberOfFilms))
+    
 number0fFilms = +prompt("Сколько фильмов вы уже посмотрели? ", "");
 }
 
@@ -72,3 +73,4 @@ const logger = function () {
     console.log("Hello");
 };
 logger();
+
