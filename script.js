@@ -66,7 +66,7 @@ if (personalMovieDB.privat) {
   }
 }
 };
-let i = 21;
+
 
 
 
